@@ -1,0 +1,77 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "To validate the login using invalid username and invalid password",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-icici-bank;to-validate-the-login-using-invalid-username-and-invalid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "To launch the browser and maximize the window",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "To launch the url of icici login page",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "To pass the invalid username in userid field",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "to pass the invalid password in password field",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "To click the login button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "To close browser",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionality of icici bank",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-icici-bank",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Icicilogin.feature",
+    "tags": []
+  }
+]
